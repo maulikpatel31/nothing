@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Best Friend = Trouble 😂</title>
+  <style>
+    body {
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background: linear-gradient(to right, #ffecd2, #fcb69f);
+      text-align: center;
+      padding: 50px;
+      color: #333;
+    }
+
+    h1 {
+      font-size: 3em;
+      color: #ff4081;
+    }
+
+    p {
+      font-size: 1.4em;
+      margin-bottom: 30px;
+    }
+
+    img {
+      width: 300px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    }
+
+    button {
+      margin-top: 40px;
+      padding: 15px 30px;
+      font-size: 1.2em;
+      background-color: #673ab7;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #512da8;
+    }
+
+    .hidden-message {
+      display: none;
+      font-size: 1.5em;
+      color: #ff5722;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>To My Best Friend 💖</h1>
+  <p>You are funny, crazy, and 100% a certified troublemaker 😜</p>
+
+  <img src="https://i.imgur.com/GfQ1z6C.png" alt="Best Friend Meme">
+
+  <br>
+  <button onclick="revealMessage()">Click if You're Awesome (but you already knew 😎)</button>
+
+  <div class="hidden-message" id="secret">
+    🌟 Surprise! You are my <strong>favorite human disaster</strong> and I wouldn't trade you for pizza...<br>Okay, maybe just one slice. 🍕😂
+  </div>
+
+  <script>
+    function revealMessage() {
+      document.getElementById("secret").style.display = "block";
+    }
+  </script>
+
+</body>
+</html>
